@@ -16,11 +16,11 @@ int main() {
         }
     }
     else if(b>c){
-        if(b>c){
+        if(b>a){
             printf("%d",b);
         }
         else{
-            printf("%d",c);
+            printf("%d",a);
         }
     }
     else{
