@@ -11,7 +11,7 @@ int main() {
     if(p>=97 && p<=124){
         printf("Lowercase");
     }
-    else{
+    if(p>=65 && p<=90){
         printf("Uppercase");
     }
 }
