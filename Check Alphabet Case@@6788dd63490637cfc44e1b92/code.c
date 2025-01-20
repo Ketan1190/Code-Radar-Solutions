@@ -11,7 +11,10 @@ int main() {
     if(p>=97 && p<=124){
         printf("Lowercase");
     }
-    if(p>=65 && p<=90){
+    else if(p>=65 && p<=90){
         printf("Uppercase");
+    }
+    else{
+        printf("Not an alphabet");
     }
 }
