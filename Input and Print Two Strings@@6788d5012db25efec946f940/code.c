@@ -4,7 +4,7 @@ int main(){
     char str[100];
     scanf("%[^\n]",&str);
     char ans[100];
-    printf("You entered: ")
+    printf("You entered: ");
     int i=0;
     while(i<lenof(str)){
         if(str[i]==" "){
