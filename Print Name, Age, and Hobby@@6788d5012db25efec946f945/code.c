@@ -14,7 +14,7 @@ int main() {
     scanf("%d",&age);
     scanf("%[^\n]",&hobby);
     printf("Name: %s\n",name);
-    printf("Age: %d",age);
+    printf("Age: %d\n",age);
     printf("Hobby: %s",hobby);
     
 }
