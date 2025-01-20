@@ -10,7 +10,7 @@ int main() {
     scanf("%d",&a);
     int mask=1<<(sizeof(int)* CHAR_BIT - 1);
     if(a&mask){
-        printf("Set")
+        printf("Set");
     }
     else{
         printf("Not Set");
