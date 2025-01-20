@@ -9,7 +9,7 @@ int main() {
     int a;
     scanf("%d",&a);
     int mask=1<<(sizeof(int)* CHAR_BIT - 1);
-    if(num&mask){
+    if(a&mask){
         prinf("Set")
     }
     else{
