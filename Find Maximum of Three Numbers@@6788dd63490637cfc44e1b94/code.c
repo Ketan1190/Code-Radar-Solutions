@@ -24,5 +24,6 @@ int main() {
         }
     }
     else{
-        printf("%d",b);    }
+        printf("%d",b);    
+    }
 }
