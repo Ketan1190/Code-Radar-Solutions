@@ -8,7 +8,7 @@ char* welcome() {
 int main() {
     char str[100];
     scanf("%[^\n]",&str);
-    printf("You entered: ")
+    printf("You entered: ");
     puts(str)
     
     return 0;
