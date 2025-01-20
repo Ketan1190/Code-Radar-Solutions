@@ -8,7 +8,7 @@ int main(){
     int i=0;
     while(strlen(str)){
         char* j=str;
-        if(*str[i]==" "){
+        if(*j==" "){
             puts(ans);
             ans[0]='\0';
             
