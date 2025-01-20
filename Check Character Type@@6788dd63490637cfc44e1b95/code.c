@@ -12,7 +12,13 @@ int main() {
         printf("Digit");
     }
     else if(p=='a' || p=='e'|| p=='i' || p== 'o' || p=='u'){
-        printf("vowel");
+        printf("Vowel");
+    }
+    else if((p>=97 && p<=124) &&(p!='a' || p!='e' || p!='i' || p!='o' || p!='u')){
+        printf("Consonant");
+    }
+    else{
+        printf("Special Character");
     }
     
 }
