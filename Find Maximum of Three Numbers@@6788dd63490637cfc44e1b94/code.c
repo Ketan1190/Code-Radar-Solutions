@@ -15,12 +15,12 @@ int main() {
             printf("%d",c);
         }
     }
-    else if(b>c){
-        if(b>a){
-            printf("%d",b);
+    else if(c>a){
+        if(c>b){
+            printf("%d",c);
         }
         else{
-            printf("%d",a);
+            printf("%d",b);
         }
     }
     else{
