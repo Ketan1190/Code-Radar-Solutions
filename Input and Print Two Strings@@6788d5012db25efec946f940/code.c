@@ -10,9 +10,11 @@ int main(){
         if(str[i]==" "){
             puts(ans);
             ans="";
+            i++;
         }
         else{
             ans[i]=str[i];
+            i++;
         }
     }
     printf(" and ");
