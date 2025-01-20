@@ -7,7 +7,7 @@ int main(){
     printf("You entered: ");
     int i=0;
     while(strlen(str)){
-        char* j=str[i];
+        char* j=str;
         if(*str[i]==" "){
             puts(ans);
             ans[0]='\0';
