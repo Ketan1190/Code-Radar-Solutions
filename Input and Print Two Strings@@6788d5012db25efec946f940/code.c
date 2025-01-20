@@ -6,16 +6,18 @@ int main(){
     char ans[100];
     printf("You entered: ");
     int i=0;
-    while(i<lenof(str)){
-        if(str[i]==" "){
+    while(strlen(str)){
+        char* j=&str[i];
+        if(*str[i]==" "){
             puts(ans);
-            ans="";
-            i++;
+            ans[0]='\0';
+            
         }
         else{
             ans[i]=str[i];
-            i++;
+            
         }
+        i++;
     }
     printf(" and ");
     puts(str);
