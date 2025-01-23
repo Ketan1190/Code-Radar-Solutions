@@ -11,9 +11,10 @@ int main() {
         for(int k=1;k<=n-i;k++){
             printf("");
         }
-        for(int j;j<=i*2-1;j++){
+        for(int j=1;j<=i*2-1;j++){
             printf("*");
         }
-        printf("\n");
+        
     }
+    printf("\n")
 }
