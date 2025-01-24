@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int n;
-    scanf("%d",&n){
+    scanf("%d",&n);
         for(int i=1;i<=n;i++){
             for(int spaces=1;spaces<=n-i;spaces++){
                 printf(" ");
@@ -19,5 +19,5 @@ int main() {
             }
             printf("\n");
         }
-    }
+    
 }
