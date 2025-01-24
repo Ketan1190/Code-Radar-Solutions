@@ -9,13 +9,13 @@ int main() {
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
         for(int spaces=1;spaces<=n-i;spaces++){
-            printf("  ");
+            printf(" ");
         }
         for(int j=1;j<=i;j++){
-            printf("%d ",j);
+            printf("%d",j);
         }
         for(int k=i-1;k>=1;k--){
-            printf("%d ",k);
+            printf("%d",k);
         }
         printf("\n");
     }
