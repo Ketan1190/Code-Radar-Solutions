@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&n);
     if(n==1 || n==0){
         printf("Sorted\n");
-        return;
+        return 0;
     }
     int num;
     int arr[n];
