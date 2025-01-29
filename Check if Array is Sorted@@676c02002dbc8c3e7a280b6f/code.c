@@ -9,6 +9,7 @@ int main() {
     scanf("%d",&n);
     if(n==1 || n==0){
         printf("Sorted");
+        return;
     }
     int num;
     int arr[n];
