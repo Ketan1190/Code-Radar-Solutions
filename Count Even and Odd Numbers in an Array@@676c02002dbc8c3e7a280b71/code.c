@@ -20,5 +20,5 @@ int main() {
         }
 
     }
-    printf("%d %d",e,o);
+    printf("%d %d ",e,o);
 }
