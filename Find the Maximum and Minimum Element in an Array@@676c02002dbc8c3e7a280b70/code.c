@@ -11,8 +11,8 @@ int main() {
         scanf("%d",&num);
         arr[i]=num;
     }
-    int max=-99999;
-    int min=100000;
+    int max=-999;
+    int min=1000;
     for(int i=0;i<n;i++){
         if(max<arr[i]){
             max=arr[i];
