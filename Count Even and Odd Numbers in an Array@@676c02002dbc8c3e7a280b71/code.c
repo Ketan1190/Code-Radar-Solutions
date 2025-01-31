@@ -15,7 +15,7 @@ int main() {
         if(arr[i]%2==0){
             e++;
         }
-        else{
+        if(arr[i]%2!=0){
             o++;
         }
 
