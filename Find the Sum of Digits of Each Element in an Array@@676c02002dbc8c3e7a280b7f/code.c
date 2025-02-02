@@ -12,7 +12,7 @@ int main() {
         int mod=1;
         int num=arr[i];
         while(num>0){
-            mod=mod%10;
+            mod=num%10;
             sum=sum+mod;
             num=num/10;
         }
