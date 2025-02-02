@@ -11,6 +11,9 @@ int main() {
         int sum=0;
         int mod=1;
         int num=arr[i];
+        if (num==0){
+            printf("%d ",num);
+        }
         while(num>0){
             mod=num%10;
             sum=sum+mod;
