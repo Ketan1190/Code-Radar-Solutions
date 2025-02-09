@@ -14,6 +14,9 @@ int main() {
         if (num==0){
             printf("%d ",num);
         }
+        if(num<0){
+            num=-num;
+        }
         while(num>0){
             mod=num%10;
             sum=sum+mod;
