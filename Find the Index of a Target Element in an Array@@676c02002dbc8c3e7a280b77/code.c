@@ -3,10 +3,8 @@
 char* welcome() {
     return "Welcome to Code Radar!";
 }
-
-int main() {
-    int n;
-    scanf("%d",&n);
+int hey(int n){
+    
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
@@ -19,4 +17,10 @@ int main() {
         }
     }
     return -1;
+}
+int main() {
+    int n;
+    scanf("%d",&n);
+    printf("%d",hey(n))
+    
 }
