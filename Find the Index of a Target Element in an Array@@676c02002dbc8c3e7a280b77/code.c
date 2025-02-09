@@ -21,6 +21,6 @@ int hey(int n){
 int main() {
     int n;
     scanf("%d",&n);
-    printf("%d",hey(n))
+    printf("%d",hey(n));
     
 }
