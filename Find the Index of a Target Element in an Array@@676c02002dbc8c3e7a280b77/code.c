@@ -11,4 +11,12 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int num;
+    scanf("%d",&num);
+    for(int i=0;i<n;i++){
+        if(arr[i]==num){
+            return i;
+        }
+    }
+    return -1;
 }
