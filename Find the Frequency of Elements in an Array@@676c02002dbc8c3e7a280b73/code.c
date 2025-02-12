@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main(){
+    int hash[1000]={0};
+    int n;
+    scanf("%d",&n);
+    int num;
+    for(int i=0;i<n;i++){
+        scanf("%d",&num);
+        if(hash[num]==0){
+            hash[num]++;
+        }
+        else{
+            hash[num]==num;
+        }
+    }
+    for(int k=0;k<1000;k++){
+        if(hash[i]!=0){
+            printf("%d %d"\n,k,hash[k]);
+        }
+    }
+}
