@@ -10,12 +10,12 @@ int main(){
             hash[num]++;
         }
         else{
-            hash[num]==num;
+            hash[num]=num;
         }
     }
     for(int k=0;k<1000;k++){
-        if(hash[i]!=0){
-            printf("%d %d"\n,k,hash[k]);
+        if(hash[k]!=0){
+            printf("%d %d\n",k,hash[k]);
         }
     }
 }
