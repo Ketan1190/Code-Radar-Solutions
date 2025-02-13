@@ -10,7 +10,7 @@ int main() {
     char hobby[100];
     int age;
 
-    scanf("%[^\n] %d %[^\n]",&name,&age,&hobby);
+    scanf("%[^\n] %d %[^\n]",name,&age,hobby);
     
     printf("Name: %s\n",name);
     printf("Age: %d\n",age);
