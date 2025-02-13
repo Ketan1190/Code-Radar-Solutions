@@ -2,23 +2,7 @@
 #include <string.h>
 int main(){
     char str[100];
-    scanf("%[^\n]",&str);
-    char ans[100];
-    printf("You entered: ");
-    int i=0;
-    while(strlen(str)){
-        char* j=str;
-        if(*j==" "){
-            puts(ans);
-            ans[0]='\0';
-            
-        }
-        else{
-            ans[i]=str[i];
-            
-        }
-        i++;
-    }
-    printf(" and ");
-    puts(str);
+    char str2[100];
+    scanf("%s %s",&str,&str2);
+    printf("You entered: %s and %s",str,str2)
 }
