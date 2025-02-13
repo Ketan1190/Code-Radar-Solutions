@@ -1,25 +1,25 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);
     int arr[n];
-    int e=0;
-    int o=0;
-    for(int i=0;i<n;i++){
-        scanf("&d",&arr[i]);
+    int even = 0, odd = 0;
+    
+    // Read array elements
+    for(int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
-    for(int i=0;i<n;i++){
-        if(arr[i]%2==0){
-            e++;
-        }
-        else{
-            o++;
+    
+    // Count even and odd numbers
+    for(int i = 0; i < n; i++) {
+        if(arr[i] % 2 == 0) {
+            even++;
+        } else {
+            odd++;
         }
     }
-    printf("%d %d ",e,o);
+    
+    printf("%d %d", even, odd);
+    return 0;
 }
