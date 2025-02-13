@@ -3,7 +3,7 @@ int isPrime(int num) {
     if (num <= 1) {
         return 0; // Numbers <= 1 are not prime
     }
-    for (int i = 2; i <= num; i++) {
+    for (int i = 2; i <= num-1; i++) {
         if (num % i == 0) {
             return 0; // If divisible, not a prime number
         }
