@@ -19,5 +19,5 @@ int main(){
         hash[arr[i]]++;
     }
 
-    printf("%d",&result);
+    printf("%d",result);
 }
