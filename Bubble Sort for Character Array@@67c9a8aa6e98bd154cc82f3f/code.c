@@ -1,17 +1,18 @@
 void bubbleSort(char arr[],int n){
     for(int i=0;i<n-1;i++){
-        int key=i+1;
-        for(int j=key;j>0;j--){
-            if((int)arr[j-1]>(int)arr[j]){
-                int temp=arr[j-1];
-                arr[j-1]=arr[j];
-                arr[j]=temp;
+        int swapped=0;
+        for(int j=0;j<n-i-1;j++){
+            if((int)arr[j]>(int)arr[j+1]){
+                int temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;
+
+                swapped=1;
             }
-            else{
+        }
+        if(swapped==0){
                 break;
             }
-
-        }
     }
 }
 void printArray(char arr[],int n){
