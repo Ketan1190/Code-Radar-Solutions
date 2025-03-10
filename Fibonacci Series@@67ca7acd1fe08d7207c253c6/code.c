@@ -3,7 +3,7 @@ void fibonacciSeries(int n){
     int b=1;
     
     for(int i=1;i<=n;i++){
-        printf("%d",a);
+        printf("%d ",a);
         int temp=a+b;
         
         a=b;
