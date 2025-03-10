@@ -1,5 +1,5 @@
 int getMax(int arr[],int s,int e){
-    int max=-9999;
+    int max=s;
     for(int i=s;i<=e;i++){
         if(arr[i]>arr[max]){
             max=i;
