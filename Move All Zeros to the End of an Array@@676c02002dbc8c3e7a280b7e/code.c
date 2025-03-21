@@ -16,15 +16,17 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    int end = n - 1;
+    int start=0;
     for (int j = 0; j <= end; j++) {
-        while (arr[j] == 0 && j < end) { // Ensure the swapped element is checked
-            swap(arr, j, end);
-            end--;
+        if(arr[j]!=0){
+            arr[start++]=arr[j];
         }
     }
+    while(start<n){
+        arr[start++]=0;
+    }
 
-    // Printing the array
+   
     for (int k = 0; k < n; k++) {
         printf("%d ", arr[k]);
     }
