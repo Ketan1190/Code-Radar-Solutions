@@ -17,7 +17,7 @@ int main() {
     }
 
     int start=0;
-    for (int j = 0; j <= end; j++) {
+    for (int j = 0; j <n; j++) {
         if(arr[j]!=0){
             arr[start++]=arr[j];
         }
