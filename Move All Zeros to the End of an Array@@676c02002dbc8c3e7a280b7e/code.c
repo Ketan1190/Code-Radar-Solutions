@@ -16,13 +16,13 @@ int main() {
     }
 
     int end=n-1;
-    for(int j=0;j<n;j++){
+    for(int j=0;j<end;j++){
         if(arr[j]==0){
             swap(arr,j,end);
             end--;
         }
     }
     for(int k=0;k<n;k++){
-        printf("%d",arr[k]);
+        printf("%d ",arr[k]);
     }
 }
